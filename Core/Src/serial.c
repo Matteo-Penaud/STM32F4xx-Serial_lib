@@ -19,7 +19,7 @@ uint16_t __sizeof_string(uint8_t* string)
 
 uint8_t* __uint_to_string(uint32_t value)
 {
-	uint8_t buffer;
+
 }
 
 void serial_send_string(UART_HandleTypeDef* huart, uint8_t* string)
